@@ -1,0 +1,54 @@
+header {
+  background: var(--background-color);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+.header-title {
+  width: auto;
+  max-width: 90%;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.header-title span {
+  color: var(--primary-color);
+}
+
+.header-title h1 {
+  font-size: 1.8rem; 
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Consultas de mídia para responsividade */
+@media (max-width: 768px) {
+  
+    header {
+      width: 20%;
+      height: 60px;
+      margin: 11px 72px 0px 92px;
+      padding: 0 10px;
+    }
+
+    .header-title h1 {
+      font-size: 1.2rem;
+      color: var(--text-color);
+    } 
+}
+
+@media (max-width: 480px) {
+  
+    header {
+      width: 20%;
+      height: 60px;
+      margin: 11px 72px 0px 92px;
+      padding: 0 10px;
+    }
+    .header-title h1 {
+      font-size: 1.2rem;
+      color: var(--text-color);
+    } 
+}

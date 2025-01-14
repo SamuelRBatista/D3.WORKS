@@ -1,0 +1,51 @@
+.graphic-layer {
+    margin: 237px 181px;
+    width: 28%;
+    height: 261px;
+}
+
+.graphic-content {
+    margin: 1px;
+    width: 156%;
+    height: 150px;
+    padding: 2px 0px;
+    background: var(--secondary-color);
+}
+
+.graphic-content {
+    margin: 2px;
+    width: 63%;
+    height: 163px;
+    padding: 10px;
+    background: var(--secondary-color);
+}
+
+.init-quiz {
+    width: 311px;
+    height: 40px;
+    margin: 26px 32px 8px 2px;
+    gap: 8px;
+    background: var(--primary-color);
+    animation-timing-function: ease-in-out;
+    animation-duration: 150ms;
+}
+
+
+
+/* Media */
+@media (max-width: 480px) {
+
+    .graphic-content {
+        margin: 2px;
+        width: 134%;
+        height: 163px;
+        padding: 10px;
+        background: var(--secondary-color);
+    }
+
+    .graphic-layer {
+        margin: -19px 49px auto;
+        width: 31%;
+        height: auto;
+      }
+}

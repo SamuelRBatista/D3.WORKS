@@ -1,0 +1,29 @@
+footer {
+  text-align: center;
+  padding: 25px;
+  background: var(--secondary-color);
+  color: #fff;
+  margin-top: 89px;
+}
+footer p {
+  width: auto; 
+  max-width: 90%; 
+  font-family: "Inconsolata", monospace; 
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 1.5; 
+  text-align: center;  
+}
+
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: var(--secondary-color);
+    color: #fff;
+    margin-top: 75px;
+}
+}
+
+

@@ -1,0 +1,112 @@
+.panel-end {
+  width: 428px;
+  height: 654px;
+  margin: 201px 269px;
+  left: 839px;
+  gap: 62px;
+}
+
+.endquiz {
+  width: 100%;
+  margin: 165px 7px auto;
+  height: auto;
+}
+
+.title-endquiz{
+  width:360px;
+  height: 181px;
+  gap: 16px;
+}
+
+.title-endquiz h1{
+  width: 360px;
+  height: 117px;
+  gap: 0px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-color);
+}
+
+.title-endquiz p{
+  width: 360px;
+  height: 48px;
+  font-family: Inconsolata;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:var(--paragraf-color);
+}
+
+.end-quiz{
+  width: 192px;
+  height: 40px;
+  margin: 143px 32px 8px 2px;
+  gap: 8px;
+  background: var(--primary-color);
+  animation-timing-function: ease-in-out;
+  animation-duration: 150ms; 
+}
+
+
+
+
+/* Estilos para dispositivos pequenos (smartphones) */
+@media (max-width: 480px) {
+    .panel-end {   
+      width: 337px;
+      height: 392px;
+      margin: 199px 103px;
+      left: 839px;
+      gap: 62px;
+    }
+
+  .title-endquiz h1 {
+    width: 223px;
+    height: 117px; 
+    font-size: 32px; 
+    color: var(--primary-color);
+  }
+
+  .title-endquiz p {
+    width: 277px;
+    height: 48px;
+    font-weight: 400;
+    color: var(--paragraf-color);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 101%;
+    margin: -29px -13px auto; 
+    padding: 4px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .endVideo{
+    width: 50px;
+  }
+
+  .panel-end {
+    margin: -11px 12px 40px 0px;
+    width: 472px;
+    height: auto;
+  }
+
+  .title-endquiz p {
+    margin: 20px 0px auto;
+    width: 277px;
+    height: 48px;
+    font-weight: 400;
+    color: var(--paragraf-color);
+  }
+}
